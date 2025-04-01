@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HotStore - Boutique pour Adultes</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #0d0d0d;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding-top: 50px;
+        }
+        h1 {
+            font-size: 2.5em;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #d4af37;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2em;
+            color: #b3b3b3;
+        }
+        .product {
+            display: inline-block;
+            width: 250px;
+            margin: 20px;
+            padding: 15px;
+            background: linear-gradient(145deg, #1a1a1a, #2e2e2e);
+            border-radius: 15px;
+            cursor: pointer;
+            box-shadow: 0px 4px 10px rgba(255, 215, 0, 0.3);
+            transition: transform 0.3s ease-in-out;
+        }
+        .product:hover {
+            transform: scale(1.1);
+        }
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenue sur HotStore 🔥</h1>
+        <p>Découvrez notre sélection exclusive de produits pour adultes.</p>
+        <div class="product" onclick="rickRoll()">
+            <img src="https://b2.dd.icdn.ru/t/tsukynight/5/imgsrc.ru_83988735BXi.webp" alt="Produit 1">
+            <p>Sextoy Premium</p>
+        </div>
+        <div class="product" onclick="rickRoll()">
+            <img src="https://b2.dd.icdn.ru/t/tsukynight/3/imgsrc.ru_83988693giz.webp" alt="Produit 2">
+            <p>Vidéo Exclusive</p>
+        </div>
+        <div class="product" onclick="rickRoll()">
+            <img src="https://m.media-amazon.com/images/I/41nYAzeghIL._AC_SX679_.jpg" alt="Produit 3">
+            <p>Lotion Sensuelle</p>
+        </div>
+    </div>
+
+    <script>
+        function rickRoll() {
+            window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+        }
+    </script>
+</body>
+</html>
